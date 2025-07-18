@@ -220,20 +220,17 @@ button:focus {
 	outline: 2px dashed #0056b3;
 	outline-offset: 2px;
 }
-
 .container {
 	max-width: 1200px;
 	margin: auto;
 	padding: 1rem;
 }
-
 .footer {
 	height: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-
 section{
 	min-height: 75vh;
 }
@@ -246,7 +243,6 @@ section{
 .header-row > div{
 	background-color: #F7F7F7;
 }
-
 .close-modal{
 	position: absolute;
 	top: 24px;
