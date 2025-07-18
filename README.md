@@ -1,10 +1,10 @@
-<!-- Basic Setup
+Basic Setup
         npx create-react-app product-comparison-ui
         npm install bootstrap
         npm install node-sass
         npm install --save-dev sass-loader sass css-loader style-loader postcss-loader resolve-url-loader
         npm start
- -->
+
 
 
 # Getting Started with Create React App
