@@ -20,10 +20,11 @@ body.dark {
 	padding: 1rem;
 	justify-content: center;
 	margin-top: 32px;
-		>div {
-			max-width: 85%;
-			width: 85%;
-		}
+
+	>div {
+		max-width: 85%;
+		width: 85%;
+	}
 
 	@media (min-width: 768px) {
 		>div {
@@ -31,6 +32,7 @@ body.dark {
 			width: 45%;
 		}
 	}
+
 	@media (min-width: 1024px) {
 		>div {
 			max-width: 32%;
@@ -40,6 +42,7 @@ body.dark {
 
 }
 
+
 .product-card {
 	border: 1px solid #ccc;
 	border-radius: 8px;
@@ -47,6 +50,23 @@ body.dark {
 	background: white;
 	text-align: center;
 	position: relative;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+	padding: 16px;
+	background: #fff;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+	&:hover {
+		transform: scale(1.015);
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+	}
+
+	img {
+		height: 150px;
+		object-fit: contain;
+		border-radius: 8px;
+		margin-bottom: 12px;
+	}
 
 	p {
 		margin: 0;
@@ -102,7 +122,8 @@ body.dark .product-card {
 	gap: 1rem;
 	padding: 1rem;
 	z-index: 3;
-	span{
+
+	span {
 		font-weight: 600;
 	}
 }
@@ -220,37 +241,45 @@ button:focus {
 	outline: 2px dashed #0056b3;
 	outline-offset: 2px;
 }
+
 .container {
 	max-width: 1200px;
 	margin: auto;
 	padding: 1rem;
 }
+
 .footer {
 	height: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-section{
+
+section {
 	min-height: 75vh;
 }
-.header-row > div,
-.feature-row > div{
+
+.header-row>div,
+.feature-row>div {
 	margin-top: 12px;
 	padding: 12px;
 	font-weight: 600;
 }
-.header-row > div{
+
+.header-row>div {
 	background-color: #F7F7F7;
 }
-.close-modal{
+
+.close-modal {
 	position: absolute;
 	top: 24px;
 	right: 24px;
 }
-.product-card  li{
+
+.product-card li {
 	padding: 4px 0;
 }
-.product-card  li span strong{
+
+.product-card li span strong {
 	text-transform: capitalize;
 }
